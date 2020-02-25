@@ -1,3 +1,39 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+.content{
+  color: #000;
+}
+
+ion-card-title{
+  font-size: 14px;
+  color: #752b4e;
+}
+
+ion-card-subtitle{
+  font-size: 16px;
+  color: #df68a0;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+ion-card-header{
+  background-color:#fafafa;
+}
+
+ion-card-content{
+  border-bottom: 1px solid #752b4e;
+}
+
+.my-message{
+  background-color: #b37491;
+
+  ion-card-header, ion-card-content{
+    background-color: #fde2ee;
+
+  }
+  ion-card-title{
+    text-align: right;
+  }
+}

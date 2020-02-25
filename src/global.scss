@@ -25,14 +25,35 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+.title{
+  color: whitesmoke;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-style: italic;
+  font-size: 30px;
+}
+
+ion-content {
+  --background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/howling-wolf-watercolor-silhouette-marian-voicu.jpg) no-repeat center/cover fixed;
+  
+}
+
+/* .background{
+  background: url('/discord/src/assets/images/Howl.jpg');
+
+}
+
+ion-content {
+  --background: url('/discord/src/assets/images/Howl.jpg')  no-repeat 50% 10%;
+} */
+
 @media (prefers-color-scheme: dark) {
   /*
    * Dark Colors
    * -------------------------------------------
    */
-  
+
   body {
-    --ion-color-primary: #428cff;
+    --ion-color-primary: #df68a0;
     --ion-color-primary-rgb: 66,140,255;
     --ion-color-primary-contrast: #ffffff;
     --ion-color-primary-contrast-rgb: 255,255,255;
@@ -74,7 +95,7 @@
     --ion-color-danger-shade: #e04055;
     --ion-color-danger-tint: #ff5b71;
   
-    --ion-color-dark: #f4f5f8;
+    --ion-color-dark: #df68a0;
     --ion-color-dark-rgb: 244,245,248;
     --ion-color-dark-contrast: #000000;
     --ion-color-dark-contrast-rgb: 0,0,0;
@@ -94,6 +115,7 @@
     --ion-color-light-contrast-rgb: 255,255,255;
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
+  
   }
   
   /*
