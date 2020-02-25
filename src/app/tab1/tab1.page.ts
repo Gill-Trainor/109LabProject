@@ -34,8 +34,10 @@ export class Tab1Page {
 
   getMessagesToDisplay() {
     if(this.friendFilter == "Everyone") return this.allMessages;
-    
+
     return this.allMessages.filter(m => m.from == this.friendFilter 
       || (m.from == this.shared.userName && m.to== this.friendFilter));
   }
 }
+
+
